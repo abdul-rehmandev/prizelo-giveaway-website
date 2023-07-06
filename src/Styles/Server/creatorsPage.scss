@@ -1,0 +1,27 @@
+.creatorsPage-container {
+    h1 {
+        text-align: center;
+        margin-top: 5%;
+        font-weight: bolder;
+
+        span {
+            background-color: #FFA005;
+            padding: 1px 20px;
+            border-radius: 30px;
+            font-size: 3rem;
+        }
+    }
+
+    .creatorspage-subheader {
+        text-align: center;
+        font-weight: bolder;
+        border: 2px dotted #FFA005;
+    }
+
+    .topCreators {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

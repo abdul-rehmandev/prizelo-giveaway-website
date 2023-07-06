@@ -1,0 +1,22 @@
+.creatorsMonth-container {
+    margin: 20px 0px;
+
+    h2 {
+        font-weight: bolder;
+        margin-top: 5%;
+
+        span {
+            background-color: #FFA005;
+            padding: 1px 20px;
+            border-radius: 30px;
+            font-size: 3rem;
+        }
+    }
+
+    .creators {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

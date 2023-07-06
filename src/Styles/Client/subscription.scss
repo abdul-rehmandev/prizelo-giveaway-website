@@ -1,0 +1,39 @@
+.subscriptionBox {
+    border: 2px dotted #FFA005;
+    display: inline-block;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    margin: 25px 0px;
+    min-height: 400px;
+
+    .title {
+        text-align: center;
+        color: #FFA005;
+
+        h3 {
+            font-weight: bolder;
+        }
+    }
+
+    .perks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscriptionBtn {
+        margin-top: 20px;
+        text-align: center;
+
+        button {
+            background-color: #FFA005;
+            border: none;
+            padding: 3px 20px;
+            border-radius: 30px;
+
+            &:hover {
+                font-weight: bolder;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px dotted #FFA005;
+
+    h2 {
+        color: #FFA005;
+        font-weight: bolder;
+        padding: 10px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .social {
+        margin-bottom: 10px;
+
+        .socialIcon {
+            margin: 0px 10px;
+            cursor: pointer;
+        }
+    }
+
+    .bottom {
+        background-color: #FFA005;
+        width: 100%;
+    }
+}

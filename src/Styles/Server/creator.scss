@@ -1,0 +1,45 @@
+.creatorBox {
+    border: 2px dotted #FFA005;
+    display: inline-block;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 0px;
+
+    span {
+        color: gray;
+        font-size: 14px;
+    }
+
+    .image-Section {
+        width: 130px;
+        height: 130px;
+        border: 2px solid #FFA005;
+        border-radius: 100%;
+
+
+        .creatorImage {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            object-fit: contain;
+            border-radius: 100%;
+        }
+    }
+
+    .creatorProfileLink-Section {
+        .link {
+            background-color: #FFA005;
+            padding: 3px 20px;
+            border-radius: 30px;
+
+            &:hover {
+                font-weight: bolder;
+            }
+        }
+    }
+}

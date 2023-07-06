@@ -1,0 +1,36 @@
+.faqs-container {
+    h2 {
+        font-weight: bolder;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .faqs {
+        summary {
+            font-size: 1.25rem;
+            font-weight: 600;
+            background-color: #fff;
+            color: #333;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            outline: none;
+            border-radius: 0.25rem;
+            text-align: left;
+            cursor: pointer;
+            position: relative;
+        }
+
+        details>summary::after {
+            position: absolute;
+            content: "+";
+            right: 20px;
+        }
+
+        details[open]>summary::after {
+            position: absolute;
+            content: "-";
+            right: 20px;
+        }
+    }
+
+}

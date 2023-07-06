@@ -1,0 +1,76 @@
+.registerContainer {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .left {
+        width: 50%;
+
+        h1 {
+            text-align: center;
+            color: #FFA005;
+            font-weight: bolder;
+        }
+
+        .registerBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            input {
+                width: 350px;
+                border: none;
+                outline: none;
+            }
+
+            .inputBox {
+                border: 3px solid #FFA005;
+                padding: 5px;
+                margin: 5px 0px;
+            }
+
+            button {
+                background-color: #FFA005;
+                padding: 3px 20px;
+                border: none;
+                border-radius: 30px;
+                margin: 10px 0px;
+
+                &:hover {
+                    font-weight: bolder;
+                }
+            }
+
+            .forgotPass-Box {
+                .link {
+                    &:hover {
+                        color: #FFA005;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .redirectLink {
+                .link {
+                    &:hover {
+                        color: #FFA005;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        width: 50%;
+        border: 2px dotted #FFA005;
+        padding: 5px 20px;
+
+        ul>li {
+            text-align: justify;
+        }
+    }
+}

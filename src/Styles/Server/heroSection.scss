@@ -1,0 +1,81 @@
+.heroSection-container {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+        font-weight: bolder;
+        font-size: 3rem;
+
+        span {
+            background-color: #FFA005;
+            padding: 1px 20px;
+            border-radius: 30px;
+            font-size: 3rem;
+        }
+    }
+
+    .heroSecion-loginBtn {
+        background-color: #FFA005;
+        padding: 3px 20px;
+        border-radius: 30px;
+
+        &:hover {
+            font-weight: bolder;
+        }
+    }
+
+    p {
+        margin: 20px 0px;
+    }
+
+    .featured {
+        position: absolute;
+        width: 100%;
+        height: 120px;
+        right: 0px;
+        bottom: 0px;
+        border: 2px dotted #FFA005;
+        text-align: start;
+        padding: 5px;
+
+        h3 {
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFA005;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 12px;
+
+            .creatorName {
+                color: #FFA005;
+                font-weight: bolder;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .participateLink {
+            background-color: #FFA005;
+            padding: 3px 20px;
+            border-radius: 30px;
+
+            &:hover {
+                font-weight: bolder;
+            }
+        }
+    }
+}

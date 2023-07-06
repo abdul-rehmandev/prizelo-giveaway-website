@@ -1,0 +1,53 @@
+.giveawayBox {
+    border: 2px dotted #FFA005;
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    margin: 10px 0px;
+    padding: 10px;
+
+    .name {
+        h3 {
+            font-weight: bolder;
+            color: #FFA005;
+            text-align: center;
+        }
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+    }
+
+    div {
+        margin: 5px 0px;
+    }
+
+    .giveAwayActions {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .link {
+
+            &:first-child {
+                color: #FFA005;
+                font-weight: bolder;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            &:last-child {
+                background-color: #FFA005;
+                padding: 1px 20px;
+                border-radius: 30px;
+
+                &:hover {
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.searchBox {
+    display: flex;
+    justify-content: center;
+
+    .inputBox {
+        border: 3px solid #FFA005;
+        padding: 10px;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+    }
+}
